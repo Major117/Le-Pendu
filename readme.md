@@ -22,5 +22,5 @@ et la console se fermer.
 
 un exemple d’utilisation:
 
-klgizhg ogezjgoz p
+merde
 
