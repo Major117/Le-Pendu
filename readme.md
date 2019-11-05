@@ -27,7 +27,7 @@ et la console se fermer.
 
 un exemple d’utilisation:
 
-![alt text](https://zupimages.net/viewer.php?id=19/45/4kk5.png)
+![alt text](https://zupimages.net/up/19/45/4kk5.png)
 
 
 
