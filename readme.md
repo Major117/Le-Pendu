@@ -11,7 +11,7 @@ dans une liste déjà écrite, l'objectif est de trouvée le mot en moins de 7 e
 
 description de l’implémentation technique du jeu : 
 
-
+![alt text](https://zupimages.net/up/19/45/mrfz.png)
 
 
 
