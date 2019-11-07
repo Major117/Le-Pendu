@@ -23,17 +23,22 @@ dans une liste déjà écrite, l'objectif est de trouvée le mot en moins de 7 e
 - On rentre maintenant dans notre boucle principale *"While"* et tant que notre condition victoire et notre condition de défaite retourne "true", alors on reste dans cette boucle:
 ```
 .On appelle la methode afficher().
-.On récupère la lettre taper par l'utilisateur (qu'on transforme en minuscule et si il tape un mot on récupére seulement le 1er caractére)
-.On initialise "erreur" qui est un boolean et on appelle la méthode chercheEtRemplace() qui vérifie si la lettre choisi par l'utilisateur et bien dans le mot a deviner, et retourne un boolean.
+.On récupère la lettre taper par l'utilisateur (qu'on transforme en minuscule et si il tape un mot on récupére 
+seulement le 1er caractére)
+.On initialise "erreur" qui est un boolean et on appelle la méthode chercheEtRemplace() qui vérifie si la lettre
+ choisi par l'utilisateur et bien dans le mot a deviner,
+  et retourne un boolean.
 .Si erreur retourne false (si il retourne true alors on entre pas dans le "if").
 .Alors on retire -1 a Nb Erreur.
 ```
 - Si on sort de la boucle principal, c'est que une des deux condition a retourné "false" alors on les vérifies.
 ```
-.Le premier "if" (condition de victoire) compare si le mot choix au débart et le mot a deviner est strictement égal et si oui, alors il imprime un message dédié.
+.Le premier "if" (condition de victoire) compare si le mot choix au débart et le mot a deviner est 
+strictement égal et si oui, alors il imprime un message dédié.
 ```
 ```
-.Le deuxième "if" (condition de défaite) vérifie si le nombre d'erreur est égal a zero et si oui il imprime un message dédié.
+.Le deuxième "if" (condition de défaite) vérifie si le nombre d'erreur est égal a zero et 
+si oui il imprime un message dédié.
 ```
 - Maintenant on entre dans notre 2ème "do While".
 ```
