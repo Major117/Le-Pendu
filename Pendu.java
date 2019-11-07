@@ -12,8 +12,8 @@ public class Pendu {
     static char lettreChoisie;                      // le caractère tapé par l'utilisateur.
     static boolean erreur;                          // le boolean erreur qui sert a décrémenter le nB erreur juste au dessus.
     static char reponse = ' ';                      // attend un caractère (o/n) pour relancer la boucle ou non. 
-    static Random rdm = new Random();               // appelle l'objet Random.
-    static Scanner scan = new Scanner(System.in);   // appelle l'objet Scanner.
+    static Random rdm = new Random();               // appelle l'objet Random, qui pioche un mot au Hasard
+    static Scanner scan = new Scanner(System.in);   // appelle l'objet Scanner, permet de recupérer la saisie de l'utilisateur.
 
     /**
      * choisis un mot au hasard dans le tableau et le trasnforme en tableau de
